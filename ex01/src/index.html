@@ -1,1 +1,55 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../styles/index.css">
+<title>Gallery's page</title>
+</head>
+
+<body>
+    <script src="../scripts/index.js"></script>
+    <div class="row">
+        <div class="column">
+          <img src="../images/img1.jpg" alt="Marathon" width="200"  onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="../images/img2.jpg" alt="Gymnastics" width="200" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="../images/img3.jpg" alt="Climbing" width="200" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="../images/img4.jpg" alt="Skiing" width="200" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="../images/img5.jpg" alt="Weight Lifting" width="200" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="../images/img6.jpg" alt="Basketball" width="200" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="../images/img7.jpg" alt="Swimming" width="200" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="../images/img8.jpg" alt="Jogging" width="200" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="../images/img9.jpg" alt="Running" width="200" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="../images/img10.jpg" alt="Cycling" width="200" onclick="myFunction(this);">
+          </div>
+      </div>
+      
+     
+      <div class="container">
+  
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+      
+        <img id="expandedImg" style="width:100%">
+     
+        <div id="imgtext"></div>
+      </div>
+</body>
+
+</html>
